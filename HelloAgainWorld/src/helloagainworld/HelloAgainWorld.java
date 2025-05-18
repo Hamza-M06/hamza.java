@@ -15,10 +15,18 @@ import java.util.Scanner;
 public class HelloAgainWorld {
     
     // final constant
-            final String SET_TITLE ="\033]0;$\007 ";
+            final String SET_TITLE ="\033]0;$\007";
             
             static final String CLEAR_TERMINAL = "\033c"; 
     
+                     static final String BANNER = """
+                                   
+                                                
+                                        ====================
+                                        Student Registration
+                                        ====================
+                                    
+                                    """;     
             
             
             
@@ -34,23 +42,14 @@ public class HelloAgainWorld {
     public static void main(String[] args) {
         
         
-         
-        
+
         Scanner scanner = new Scanner(System.in);
             
             
 //            
 //        System.out.printf(SET_TITLE, "Student regestration - Hamza M");
 //        
-        
-        
-//            static final String BANNER = """
-//                                   
-//                                     ====================
-//                                     Student Registration
-//                                     ====================
-//                                     
-//                                     """;
+  
            
         
         
@@ -82,6 +81,10 @@ public class HelloAgainWorld {
         
         System.out.printf("current semster: %s /n", currentSemster);
         System.out.printf("youve got %s semsters to go! \n");
+        
+        
+        
+        
         
         
         
